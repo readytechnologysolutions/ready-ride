@@ -1,0 +1,30 @@
+/* Ensure Google Maps container takes full height */
+.gm-style {
+  height: 100% !important;
+}
+
+/* Fix for Google Maps controls */
+.gm-style .gm-style-cc {
+  display: none;
+}
+
+/* Ensure map takes full height */
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Animation for the marker */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
